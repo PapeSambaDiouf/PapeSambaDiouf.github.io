@@ -1,0 +1,26 @@
+<!-- barre de navigation -->
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-lg bg-lg ">
+  <div class="container-fluid">
+    <img src="{% static 'images/apple-touch-icon.png' %}">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">produit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">client</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">commande</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
